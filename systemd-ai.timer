@@ -1,0 +1,9 @@
+[Unit]
+Description=systemd analyzer 12h timer
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=12h
+Unit=systemd-ai.service
+
+[Install]
+WantedBy=timers.target
