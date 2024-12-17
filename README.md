@@ -26,14 +26,14 @@ Bu projeyi çalıştırmak için aşağıdaki yazılım ve araçlar gereklidir:
 1. **Depoyu klonlayın:**
 
 ```bash
-git clone https://github.com/kullaniciadi/linux-log-analyzer.git
-cd linux-log-analyzer
+git clone https://github.com/berkucuk/Systemd-AI.git
+cd Systemd-AI
 ```
 
 2. **Gereksinimleri yükleyin:**
 
 ```bash
-pip install -r requirements.txt
+chmod +x install.sh && sudo ./install.sh
 ```
 
 3. **Çevresel değişkenleri ekleyin:**
@@ -42,20 +42,6 @@ Proje dizininde bir `.env` dosyası oluşturun ve Groq API anahtarınızı aşa�
 
 ```env
 GROQ_API_KEY=your_api_key_here
-```
-
-4. **Uygulamayı başlatın:**
-
-```bash
-uvicorn main:app --reload
-```
-
-5. **Uygulamayı tarayıcıda görüntüleyin:**
-
-Tarayıcınızı açarak aşağıdaki adrese gidin:
-
-```
-http://127.0.0.1:8000
 ```
 
 ---
@@ -83,7 +69,7 @@ linux-log-analyzer/
 
 ## 💻 **Örnek Kullanım**
 
-1. Servisi başlattığınızda `http://127.0.0.1:8000` adresine gidin.  
+1. Servisi başlattığınızda `http://127.0.0.1:3131` adresine gidin.  
 2. HTML formatında analiz edilmiş sistem loglarını görebilirsiniz.
 
 ---
@@ -121,9 +107,5 @@ Bu proje [MIT Lisansı](https://opensource.org/licenses/MIT) kapsamında lisansl
 
 Proje ile ilgili sorularınız veya geri bildirimleriniz için lütfen benimle iletişime geçin:
 
-- **GitHub**: [kullaniciadi](https://github.com/kullaniciadi)
-- **E-posta**: example@email.com
-
----
-
-Bu README dosyasını projenizin dizinine ekleyerek, GitHub üzerinde paylaşabilirsiniz.
+- **GitHub**: [kullaniciadi](https://github.com/berkucuk)
+- **E-posta**: berkkucukk@proton.me
